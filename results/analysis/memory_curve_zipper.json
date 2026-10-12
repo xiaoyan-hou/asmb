@@ -1,0 +1,68 @@
+[
+  {
+    "category": "zipper",
+    "selector": "coreset",
+    "ratio": 0.01,
+    "memory_bank_size": 1881,
+    "total_train_patches": 188160,
+    "compression_ratio": 0.009996811224489796,
+    "image_auroc": 0.797531512605042,
+    "pixel_auroc": 0.9380986163623376,
+    "inference_time": 0.002422215894060456
+  },
+  {
+    "category": "zipper",
+    "selector": "hybrid_stability",
+    "ratio": 0.01,
+    "memory_bank_size": 1881,
+    "total_train_patches": 188160,
+    "compression_ratio": 0.009996811224489796,
+    "image_auroc": 0.8574054621848739,
+    "pixel_auroc": 0.9346903637874329,
+    "inference_time": 0.0023060867549687322
+  },
+  {
+    "category": "zipper",
+    "selector": "coreset",
+    "ratio": 0.1,
+    "memory_bank_size": 18816,
+    "total_train_patches": 188160,
+    "compression_ratio": 0.1,
+    "image_auroc": 0.898109243697479,
+    "pixel_auroc": 0.9508919157613027,
+    "inference_time": 0.007847783443693763
+  },
+  {
+    "category": "zipper",
+    "selector": "hybrid_stability",
+    "ratio": 0.1,
+    "memory_bank_size": 18816,
+    "total_train_patches": 188160,
+    "compression_ratio": 0.1,
+    "image_auroc": 0.8925945378151261,
+    "pixel_auroc": 0.949682605745553,
+    "inference_time": 0.007838969536465654
+  },
+  {
+    "category": "zipper",
+    "selector": "coreset",
+    "ratio": 0.2,
+    "memory_bank_size": 37632,
+    "total_train_patches": 188160,
+    "compression_ratio": 0.2,
+    "image_auroc": 0.9125525210084033,
+    "pixel_auroc": 0.9531228036513406,
+    "inference_time": 0.013546449006644975
+  },
+  {
+    "category": "zipper",
+    "selector": "hybrid_stability",
+    "ratio": 0.2,
+    "memory_bank_size": 37632,
+    "total_train_patches": 188160,
+    "compression_ratio": 0.2,
+    "image_auroc": 0.9002100840336134,
+    "pixel_auroc": 0.9529564858029353,
+    "inference_time": 0.013521469536427076
+  }
+]

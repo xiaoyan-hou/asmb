@@ -1,0 +1,98 @@
+[
+  {
+    "fraction": 1,
+    "selector": "greedy",
+    "categories": 5,
+    "image_mean": 0.8925343693313014,
+    "pixel_mean": 0.9491109630274984,
+    "memory_mean": 19286
+  },
+  {
+    "fraction": 1,
+    "selector": "sensitivity",
+    "categories": 5,
+    "image_mean": 0.9494182062232244,
+    "pixel_mean": 0.9518891496787805,
+    "memory_mean": 19286
+  },
+  {
+    "fraction": 1,
+    "selector": "asmb",
+    "categories": 5,
+    "image_mean": 0.9496103532574767,
+    "pixel_mean": 0.9512094826800513,
+    "memory_mean": 16738.8
+  },
+  {
+    "fraction": 0.5,
+    "selector": "greedy",
+    "categories": 5,
+    "image_mean": 0.8774846933817083,
+    "pixel_mean": 0.9434647752044538,
+    "memory_mean": 9627
+  },
+  {
+    "fraction": 0.5,
+    "selector": "sensitivity",
+    "categories": 5,
+    "image_mean": 0.9285170626846281,
+    "pixel_mean": 0.946579525727805,
+    "memory_mean": 9627
+  },
+  {
+    "fraction": 0.5,
+    "selector": "asmb",
+    "categories": 5,
+    "image_mean": 0.9285170626846281,
+    "pixel_mean": 0.9462849754790478,
+    "memory_mean": 8566.4
+  },
+  {
+    "fraction": 0.25,
+    "selector": "greedy",
+    "categories": 5,
+    "image_mean": 0.8563749456954389,
+    "pixel_mean": 0.9368050965220509,
+    "memory_mean": 4813.4
+  },
+  {
+    "fraction": 0.25,
+    "selector": "sensitivity",
+    "categories": 5,
+    "image_mean": 0.9134634054335241,
+    "pixel_mean": 0.9404924774964135,
+    "memory_mean": 4813.4
+  },
+  {
+    "fraction": 0.25,
+    "selector": "asmb",
+    "categories": 5,
+    "image_mean": 0.9134634054335241,
+    "pixel_mean": 0.9402712875173252,
+    "memory_mean": 4526
+  },
+  {
+    "fraction": 0.1,
+    "selector": "greedy",
+    "categories": 5,
+    "image_mean": 0.8320368973060314,
+    "pixel_mean": 0.9214441584458144,
+    "memory_mean": 1896.8
+  },
+  {
+    "fraction": 0.1,
+    "selector": "sensitivity",
+    "categories": 5,
+    "image_mean": 0.8781548557371818,
+    "pixel_mean": 0.9234567566075982,
+    "memory_mean": 1896.8
+  },
+  {
+    "fraction": 0.1,
+    "selector": "asmb",
+    "categories": 5,
+    "image_mean": 0.8781548557371818,
+    "pixel_mean": 0.9234567566075982,
+    "memory_mean": 1896.8
+  }
+]

@@ -1,0 +1,9 @@
+dataset: {name: mvtec, root: data/raw/mvtec}
+model: {backbone: wide_resnet50_2, pretrained: true}
+features: {layers: [layer2, layer3]}
+input: {resize: 256, image_size: 224}
+patch: {patch_size: 3}
+embedding: {pretrain_dimension: 1024, target_dimension: 1024}
+memory: {selector: greedy_sensitivity, coreset_sampling_ratio: 0.1, sensitivity_fraction: 0.3}
+anomaly: {num_neighbors: 1}
+runtime: {batch_size: 4, num_workers: 4, seed: 0, use_cuda: true}

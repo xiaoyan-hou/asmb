@@ -1,0 +1,526 @@
+{
+  "summary": [
+    {
+      "method": "greedy",
+      "categories": 12,
+      "image_auroc_mean": 0.915922799779978,
+      "image_auroc_std": 0.06805117491723545,
+      "pixel_auroc_mean": 0.9702052980609462,
+      "pixel_auroc_std": 0.01848837214042466,
+      "memory_mean": 56571.916666666664,
+      "fraction_mean": 0.1
+    },
+    {
+      "method": "sensitivity",
+      "categories": 12,
+      "image_auroc_mean": 0.9331147414741474,
+      "image_auroc_std": 0.056779486504793676,
+      "pixel_auroc_mean": 0.971577285844169,
+      "pixel_auroc_std": 0.017553950995269216,
+      "memory_mean": 56571.916666666664,
+      "fraction_mean": 0.1
+    },
+    {
+      "method": "adaptive",
+      "categories": 12,
+      "image_auroc_mean": 0.9191122112211221,
+      "image_auroc_std": 0.07642380076582639,
+      "pixel_auroc_mean": 0.9695216312064764,
+      "pixel_auroc_std": 0.016888400237329865,
+      "memory_mean": 47457.916666666664,
+      "fraction_mean": 0.08499960789746412
+    },
+    {
+      "method": "asmb",
+      "categories": 12,
+      "image_auroc_mean": 0.9335980748074807,
+      "image_auroc_std": 0.05705904169510025,
+      "pixel_auroc_mean": 0.9709022887439783,
+      "pixel_auroc_std": 0.017690377792595687,
+      "memory_mean": 47457.916666666664,
+      "fraction_mean": 0.08499960789746412
+    }
+  ],
+  "rows": [
+    {
+      "category": "candle",
+      "method": "greedy",
+      "image_auroc": 0.9279000000000001,
+      "pixel_auroc": 0.9685052038427489,
+      "memory_bank_size": 70560,
+      "selected_fraction": null,
+      "num_train": 900,
+      "num_test": 200
+    },
+    {
+      "category": "candle",
+      "method": "sensitivity",
+      "image_auroc": 0.9558,
+      "pixel_auroc": 0.96917583576236,
+      "memory_bank_size": 70560,
+      "selected_fraction": null,
+      "num_train": 900,
+      "num_test": 200
+    },
+    {
+      "category": "candle",
+      "method": "adaptive",
+      "image_auroc": 0.9421999999999999,
+      "pixel_auroc": 0.9616640419701954,
+      "memory_bank_size": 17640,
+      "selected_fraction": 0.025,
+      "num_train": 900,
+      "num_test": 200
+    },
+    {
+      "category": "candle",
+      "method": "asmb",
+      "image_auroc": 0.96,
+      "pixel_auroc": 0.9649277357355219,
+      "memory_bank_size": 17640,
+      "selected_fraction": 0.025,
+      "num_train": 900,
+      "num_test": 200
+    },
+    {
+      "category": "capsules",
+      "method": "greedy",
+      "image_auroc": 0.7511666666666666,
+      "pixel_auroc": 0.9499068087205336,
+      "memory_bank_size": 42492,
+      "selected_fraction": null,
+      "num_train": 542,
+      "num_test": 160
+    },
+    {
+      "category": "capsules",
+      "method": "sensitivity",
+      "image_auroc": 0.8088333333333334,
+      "pixel_auroc": 0.9526463492696696,
+      "memory_bank_size": 42492,
+      "selected_fraction": null,
+      "num_train": 542,
+      "num_test": 160
+    },
+    {
+      "category": "capsules",
+      "method": "adaptive",
+      "image_auroc": 0.7185,
+      "pixel_auroc": 0.9486831315002677,
+      "memory_bank_size": 42492,
+      "selected_fraction": 0.09999811732811206,
+      "num_train": 542,
+      "num_test": 160
+    },
+    {
+      "category": "capsules",
+      "method": "asmb",
+      "image_auroc": 0.8088333333333334,
+      "pixel_auroc": 0.9526463492696696,
+      "memory_bank_size": 42492,
+      "selected_fraction": 0.09999811732811206,
+      "num_train": 542,
+      "num_test": 160
+    },
+    {
+      "category": "cashew",
+      "method": "greedy",
+      "image_auroc": 0.9084,
+      "pixel_auroc": 0.9629452810955101,
+      "memory_bank_size": 35280,
+      "selected_fraction": null,
+      "num_train": 450,
+      "num_test": 150
+    },
+    {
+      "category": "cashew",
+      "method": "sensitivity",
+      "image_auroc": 0.9306,
+      "pixel_auroc": 0.9629875182164968,
+      "memory_bank_size": 35280,
+      "selected_fraction": null,
+      "num_train": 450,
+      "num_test": 150
+    },
+    {
+      "category": "cashew",
+      "method": "adaptive",
+      "image_auroc": 0.8940000000000001,
+      "pixel_auroc": 0.9590300101206631,
+      "memory_bank_size": 35280,
+      "selected_fraction": 0.1,
+      "num_train": 450,
+      "num_test": 150
+    },
+    {
+      "category": "cashew",
+      "method": "asmb",
+      "image_auroc": 0.9306,
+      "pixel_auroc": 0.9629875182164968,
+      "memory_bank_size": 35280,
+      "selected_fraction": 0.1,
+      "num_train": 450,
+      "num_test": 150
+    },
+    {
+      "category": "chewinggum",
+      "method": "greedy",
+      "image_auroc": 0.964,
+      "pixel_auroc": 0.9842156034496417,
+      "memory_bank_size": 35515,
+      "selected_fraction": null,
+      "num_train": 453,
+      "num_test": 150
+    },
+    {
+      "category": "chewinggum",
+      "method": "sensitivity",
+      "image_auroc": 0.9687999999999999,
+      "pixel_auroc": 0.9828174920493509,
+      "memory_bank_size": 35515,
+      "selected_fraction": null,
+      "num_train": 453,
+      "num_test": 150
+    },
+    {
+      "category": "chewinggum",
+      "method": "adaptive",
+      "image_auroc": 0.983,
+      "pixel_auroc": 0.9869055848678439,
+      "memory_bank_size": 35515,
+      "selected_fraction": 0.09999943686083705,
+      "num_train": 453,
+      "num_test": 150
+    },
+    {
+      "category": "chewinggum",
+      "method": "asmb",
+      "image_auroc": 0.9687999999999999,
+      "pixel_auroc": 0.9828174920493509,
+      "memory_bank_size": 35515,
+      "selected_fraction": 0.09999943686083705,
+      "num_train": 453,
+      "num_test": 150
+    },
+    {
+      "category": "fryum",
+      "method": "greedy",
+      "image_auroc": 0.9522,
+      "pixel_auroc": 0.959941528491721,
+      "memory_bank_size": 35280,
+      "selected_fraction": null,
+      "num_train": 450,
+      "num_test": 150
+    },
+    {
+      "category": "fryum",
+      "method": "sensitivity",
+      "image_auroc": 0.9583999999999999,
+      "pixel_auroc": 0.9603508668020224,
+      "memory_bank_size": 35280,
+      "selected_fraction": null,
+      "num_train": 450,
+      "num_test": 150
+    },
+    {
+      "category": "fryum",
+      "method": "adaptive",
+      "image_auroc": 0.9556,
+      "pixel_auroc": 0.959577221385219,
+      "memory_bank_size": 17640,
+      "selected_fraction": 0.05,
+      "num_train": 450,
+      "num_test": 150
+    },
+    {
+      "category": "fryum",
+      "method": "asmb",
+      "image_auroc": 0.9668,
+      "pixel_auroc": 0.9586603975808625,
+      "memory_bank_size": 17640,
+      "selected_fraction": 0.05,
+      "num_train": 450,
+      "num_test": 150
+    },
+    {
+      "category": "macaroni1",
+      "method": "greedy",
+      "image_auroc": 0.9513999999999999,
+      "pixel_auroc": 0.9762982297977717,
+      "memory_bank_size": 70560,
+      "selected_fraction": null,
+      "num_train": 900,
+      "num_test": 200
+    },
+    {
+      "category": "macaroni1",
+      "method": "sensitivity",
+      "image_auroc": 0.9623,
+      "pixel_auroc": 0.9774938953254585,
+      "memory_bank_size": 70560,
+      "selected_fraction": null,
+      "num_train": 900,
+      "num_test": 200
+    },
+    {
+      "category": "macaroni1",
+      "method": "adaptive",
+      "image_auroc": 0.9675,
+      "pixel_auroc": 0.9728287593544039,
+      "memory_bank_size": 31752,
+      "selected_fraction": 0.045,
+      "num_train": 900,
+      "num_test": 200
+    },
+    {
+      "category": "macaroni1",
+      "method": "asmb",
+      "image_auroc": 0.9555,
+      "pixel_auroc": 0.9753324993711683,
+      "memory_bank_size": 31752,
+      "selected_fraction": 0.045,
+      "num_train": 900,
+      "num_test": 200
+    },
+    {
+      "category": "macaroni2",
+      "method": "greedy",
+      "image_auroc": 0.8221,
+      "pixel_auroc": 0.9268470746430977,
+      "memory_bank_size": 70560,
+      "selected_fraction": null,
+      "num_train": 900,
+      "num_test": 200
+    },
+    {
+      "category": "macaroni2",
+      "method": "sensitivity",
+      "image_auroc": 0.8341999999999999,
+      "pixel_auroc": 0.9313407228581772,
+      "memory_bank_size": 70560,
+      "selected_fraction": null,
+      "num_train": 900,
+      "num_test": 200
+    },
+    {
+      "category": "macaroni2",
+      "method": "adaptive",
+      "image_auroc": 0.8394999999999999,
+      "pixel_auroc": 0.9378089235482707,
+      "memory_bank_size": 70560,
+      "selected_fraction": 0.1,
+      "num_train": 900,
+      "num_test": 200
+    },
+    {
+      "category": "macaroni2",
+      "method": "asmb",
+      "image_auroc": 0.8341999999999999,
+      "pixel_auroc": 0.9313407228581772,
+      "memory_bank_size": 70560,
+      "selected_fraction": 0.1,
+      "num_train": 900,
+      "num_test": 200
+    },
+    {
+      "category": "pcb1",
+      "method": "greedy",
+      "image_auroc": 0.9467000000000001,
+      "pixel_auroc": 0.990308029389379,
+      "memory_bank_size": 70873,
+      "selected_fraction": null,
+      "num_train": 904,
+      "num_test": 200
+    },
+    {
+      "category": "pcb1",
+      "method": "sensitivity",
+      "image_auroc": 0.9602999999999999,
+      "pixel_auroc": 0.991201871668348,
+      "memory_bank_size": 70873,
+      "selected_fraction": null,
+      "num_train": 904,
+      "num_test": 200
+    },
+    {
+      "category": "pcb1",
+      "method": "adaptive",
+      "image_auroc": 0.9395,
+      "pixel_auroc": 0.991202448680331,
+      "memory_bank_size": 70873,
+      "selected_fraction": 0.09999915342243092,
+      "num_train": 904,
+      "num_test": 200
+    },
+    {
+      "category": "pcb1",
+      "method": "asmb",
+      "image_auroc": 0.9602999999999999,
+      "pixel_auroc": 0.991201871668348,
+      "memory_bank_size": 70873,
+      "selected_fraction": 0.09999915342243092,
+      "num_train": 904,
+      "num_test": 200
+    },
+    {
+      "category": "pcb2",
+      "method": "greedy",
+      "image_auroc": 0.9083,
+      "pixel_auroc": 0.9683517521219593,
+      "memory_bank_size": 70638,
+      "selected_fraction": null,
+      "num_train": 901,
+      "num_test": 200
+    },
+    {
+      "category": "pcb2",
+      "method": "sensitivity",
+      "image_auroc": 0.9211,
+      "pixel_auroc": 0.9717456392394789,
+      "memory_bank_size": 70638,
+      "selected_fraction": null,
+      "num_train": 901,
+      "num_test": 200
+    },
+    {
+      "category": "pcb2",
+      "method": "adaptive",
+      "image_auroc": 0.9144,
+      "pixel_auroc": 0.965726815493263,
+      "memory_bank_size": 70638,
+      "selected_fraction": 0.09999943373575845,
+      "num_train": 901,
+      "num_test": 200
+    },
+    {
+      "category": "pcb2",
+      "method": "asmb",
+      "image_auroc": 0.9211,
+      "pixel_auroc": 0.9717456392394789,
+      "memory_bank_size": 70638,
+      "selected_fraction": 0.09999943373575845,
+      "num_train": 901,
+      "num_test": 200
+    },
+    {
+      "category": "pcb3",
+      "method": "greedy",
+      "image_auroc": 0.8974257425742574,
+      "pixel_auroc": 0.9867019936111175,
+      "memory_bank_size": 70952,
+      "selected_fraction": null,
+      "num_train": 905,
+      "num_test": 201
+    },
+    {
+      "category": "pcb3",
+      "method": "sensitivity",
+      "image_auroc": 0.922079207920792,
+      "pixel_auroc": 0.9875111567463488,
+      "memory_bank_size": 70952,
+      "selected_fraction": null,
+      "num_train": 905,
+      "num_test": 201
+    },
+    {
+      "category": "pcb3",
+      "method": "adaptive",
+      "image_auroc": 0.9095049504950495,
+      "pixel_auroc": 0.9863330623296132,
+      "memory_bank_size": 70952,
+      "selected_fraction": 0.1,
+      "num_train": 905,
+      "num_test": 201
+    },
+    {
+      "category": "pcb3",
+      "method": "asmb",
+      "image_auroc": 0.922079207920792,
+      "pixel_auroc": 0.9875111567463488,
+      "memory_bank_size": 70952,
+      "selected_fraction": 0.1,
+      "num_train": 905,
+      "num_test": 201
+    },
+    {
+      "category": "pcb4",
+      "method": "greedy",
+      "image_auroc": 0.9718811881188119,
+      "pixel_auroc": 0.9834723960316893,
+      "memory_bank_size": 70873,
+      "selected_fraction": null,
+      "num_train": 904,
+      "num_test": 201
+    },
+    {
+      "category": "pcb4",
+      "method": "sensitivity",
+      "image_auroc": 0.9835643564356435,
+      "pixel_auroc": 0.9856687799671627,
+      "memory_bank_size": 70873,
+      "selected_fraction": null,
+      "num_train": 904,
+      "num_test": 201
+    },
+    {
+      "category": "pcb4",
+      "method": "adaptive",
+      "image_auroc": 0.9758415841584158,
+      "pixel_auroc": 0.9788942607234739,
+      "memory_bank_size": 70873,
+      "selected_fraction": 0.09999915342243092,
+      "num_train": 904,
+      "num_test": 201
+    },
+    {
+      "category": "pcb4",
+      "method": "asmb",
+      "image_auroc": 0.9835643564356435,
+      "pixel_auroc": 0.9856687799671627,
+      "memory_bank_size": 70873,
+      "selected_fraction": 0.09999915342243092,
+      "num_train": 904,
+      "num_test": 201
+    },
+    {
+      "category": "pipe_fryum",
+      "method": "greedy",
+      "image_auroc": 0.9896,
+      "pixel_auroc": 0.9849696755361854,
+      "memory_bank_size": 35280,
+      "selected_fraction": null,
+      "num_train": 450,
+      "num_test": 150
+    },
+    {
+      "category": "pipe_fryum",
+      "method": "sensitivity",
+      "image_auroc": 0.9914000000000001,
+      "pixel_auroc": 0.9859873022251544,
+      "memory_bank_size": 35280,
+      "selected_fraction": null,
+      "num_train": 450,
+      "num_test": 150
+    },
+    {
+      "category": "pipe_fryum",
+      "method": "adaptive",
+      "image_auroc": 0.9898,
+      "pixel_auroc": 0.9856053145041722,
+      "memory_bank_size": 35280,
+      "selected_fraction": 0.1,
+      "num_train": 450,
+      "num_test": 150
+    },
+    {
+      "category": "pipe_fryum",
+      "method": "asmb",
+      "image_auroc": 0.9914000000000001,
+      "pixel_auroc": 0.9859873022251544,
+      "memory_bank_size": 35280,
+      "selected_fraction": 0.1,
+      "num_train": 450,
+      "num_test": 150
+    }
+  ]
+}

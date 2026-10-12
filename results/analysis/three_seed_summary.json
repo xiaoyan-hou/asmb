@@ -1,0 +1,76 @@
+{
+  "summary": {
+    "num_pairs": 45,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "baseline_image_mean": 0.9385782783684425,
+    "asmb_image_mean": 0.9595905508050752,
+    "image_delta_mean": 0.021012272436632673,
+    "image_delta_std": 0.025181436900046344,
+    "image_wins": 39,
+    "baseline_pixel_mean": 0.9548650837457983,
+    "asmb_pixel_mean": 0.9563399292927571,
+    "pixel_delta_mean": 0.001474845546958867,
+    "pixel_delta_std": 0.0015914429249596633,
+    "pixel_wins": 39,
+    "mean_memory_reduction": 0.12566108419021582,
+    "image_delta_95ci": [
+      0.013448311074669686,
+      0.02857623379859566
+    ],
+    "image_sign_test_pvalue": 5.417768988991156e-07,
+    "pixel_delta_95ci": [
+      0.0009968103640602256,
+      0.0019528807298575086
+    ],
+    "pixel_sign_test_pvalue": 5.417768988991156e-07,
+    "baseline_image_seed_std": 0.003107413156931104,
+    "asmb_image_seed_std": 0.001815705401525339,
+    "delta_image_seed_std": 0.001435650317857696,
+    "baseline_pixel_seed_std": 0.00032321654242387,
+    "asmb_pixel_seed_std": 0.0005632923243832761,
+    "delta_pixel_seed_std": 0.0002613005046279855,
+    "memory_reduction_seed_std": 0.01836605554934721
+  },
+  "per_seed": [
+    {
+      "seed": 0,
+      "baseline_image": 0.9397741907161317,
+      "asmb_image": 0.9597481629280032,
+      "delta_image": 0.019973972211871544,
+      "baseline_pixel": 0.9550291131697074,
+      "asmb_pixel": 0.9564772272265651,
+      "delta_pixel": 0.0014481140568577114,
+      "baseline_memory": 18967.266666666666,
+      "asmb_memory": 16721.333333333332,
+      "memory_reduction": 0.12677956889727807
+    },
+    {
+      "seed": 1,
+      "baseline_image": 0.9409100596863115,
+      "asmb_image": 0.9613223123118498,
+      "delta_image": 0.020412252625538415,
+      "baseline_pixel": 0.955073395908875,
+      "asmb_pixel": 0.9568218801812274,
+      "delta_pixel": 0.0017484842723523317,
+      "baseline_memory": 18967.266666666666,
+      "asmb_memory": 17078.133333333335,
+      "memory_reduction": 0.10676134728468972
+    },
+    {
+      "seed": 2,
+      "baseline_image": 0.9350505847028844,
+      "asmb_image": 0.9577011771753724,
+      "delta_image": 0.022650592472488063,
+      "baseline_pixel": 0.9544927421588123,
+      "asmb_pixel": 0.9557206804704789,
+      "delta_pixel": 0.001227938311666558,
+      "baseline_memory": 18967.266666666666,
+      "asmb_memory": 16396.066666666666,
+      "memory_reduction": 0.14344233638867973
+    }
+  ]
+}

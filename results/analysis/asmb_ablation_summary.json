@@ -1,0 +1,38 @@
+[
+  {
+    "method": "baseline_greedy",
+    "sensitivity": false,
+    "adaptive_budget": false,
+    "categories": 15,
+    "image_auroc_mean": 0.9397741907161317,
+    "pixel_auroc_mean": 0.9550291131697074,
+    "memory_bank_mean": 18967.266666666666
+  },
+  {
+    "method": "greedy_sensitivity",
+    "sensitivity": true,
+    "adaptive_budget": false,
+    "categories": 15,
+    "image_auroc_mean": 0.9596580520592459,
+    "pixel_auroc_mean": 0.9569277850318758,
+    "memory_bank_mean": 18967.266666666666
+  },
+  {
+    "method": "adaptive",
+    "sensitivity": false,
+    "adaptive_budget": true,
+    "categories": 15,
+    "image_auroc_mean": 0.9535758495186791,
+    "pixel_auroc_mean": 0.9546413868866973,
+    "memory_bank_mean": 16721.333333333332
+  },
+  {
+    "method": "full_asmb",
+    "sensitivity": true,
+    "adaptive_budget": true,
+    "categories": 15,
+    "image_auroc_mean": 0.9597481629280032,
+    "pixel_auroc_mean": 0.9564772272265651,
+    "memory_bank_mean": 16721.333333333332
+  }
+]

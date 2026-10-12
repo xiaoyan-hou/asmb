@@ -1,0 +1,68 @@
+[
+  {
+    "category": "capsule",
+    "selector": "coreset",
+    "ratio": 0.01,
+    "memory_bank_size": 1716,
+    "total_train_patches": 171696,
+    "compression_ratio": 0.009994408722393067,
+    "image_auroc": 0.762664539289988,
+    "pixel_auroc": 0.9706920056538773,
+    "inference_time": 0.002415635606060581
+  },
+  {
+    "category": "capsule",
+    "selector": "hybrid_stability",
+    "ratio": 0.01,
+    "memory_bank_size": 1716,
+    "total_train_patches": 171696,
+    "compression_ratio": 0.009994408722393067,
+    "image_auroc": 0.7646589549262066,
+    "pixel_auroc": 0.9693383644805347,
+    "inference_time": 0.0023011977272923987
+  },
+  {
+    "category": "capsule",
+    "selector": "coreset",
+    "ratio": 0.1,
+    "memory_bank_size": 17169,
+    "total_train_patches": 171696,
+    "compression_ratio": 0.09999650545149567,
+    "image_auroc": 0.9022736338252892,
+    "pixel_auroc": 0.9768915853492417,
+    "inference_time": 0.007413596212107664
+  },
+  {
+    "category": "capsule",
+    "selector": "hybrid_stability",
+    "ratio": 0.1,
+    "memory_bank_size": 17169,
+    "total_train_patches": 171696,
+    "compression_ratio": 0.09999650545149567,
+    "image_auroc": 0.9030714000797766,
+    "pixel_auroc": 0.975903749165411,
+    "inference_time": 0.007413056060613599
+  },
+  {
+    "category": "capsule",
+    "selector": "coreset",
+    "ratio": 0.2,
+    "memory_bank_size": 34339,
+    "total_train_patches": 171696,
+    "compression_ratio": 0.19999883515049854,
+    "image_auroc": 0.9238133226964499,
+    "pixel_auroc": 0.978198901429499,
+    "inference_time": 0.012694225757568898
+  },
+  {
+    "category": "capsule",
+    "selector": "hybrid_stability",
+    "ratio": 0.2,
+    "memory_bank_size": 34339,
+    "total_train_patches": 171696,
+    "compression_ratio": 0.19999883515049854,
+    "image_auroc": 0.9086557638611887,
+    "pixel_auroc": 0.9771538716308963,
+    "inference_time": 0.012631387878751742
+  }
+]

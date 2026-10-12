@@ -1,0 +1,62 @@
+[
+  {
+    "fraction": 0.25,
+    "selector": "greedy",
+    "pairs": 15,
+    "image_mean": 0.8399856409650813,
+    "image_std": 0.10523207647900396,
+    "pixel_mean": 0.9345210877209641,
+    "pixel_std": 0.043396267346232316,
+    "memory_mean": 4813.4
+  },
+  {
+    "fraction": 0.25,
+    "selector": "sensitivity",
+    "pairs": 15,
+    "image_mean": 0.9073837959776064,
+    "image_std": 0.05370479236926946,
+    "pixel_mean": 0.938275733962614,
+    "pixel_std": 0.04387426340757604,
+    "memory_mean": 4813.4
+  },
+  {
+    "fraction": 0.25,
+    "selector": "asmb",
+    "pairs": 15,
+    "image_mean": 0.9073837959776064,
+    "image_std": 0.05370479236926946,
+    "pixel_mean": 0.9382013680483927,
+    "pixel_std": 0.04381325489412096,
+    "memory_mean": 4716.6
+  },
+  {
+    "fraction": 0.1,
+    "selector": "greedy",
+    "pairs": 15,
+    "image_mean": 0.8337665453152516,
+    "image_std": 0.10745380481976857,
+    "pixel_mean": 0.9196084022448013,
+    "pixel_std": 0.0556522151833191,
+    "memory_mean": 1896.8
+  },
+  {
+    "fraction": 0.1,
+    "selector": "sensitivity",
+    "pairs": 15,
+    "image_mean": 0.8765669157060658,
+    "image_std": 0.07434846509262506,
+    "pixel_mean": 0.9211075203835251,
+    "pixel_std": 0.05684386994741972,
+    "memory_mean": 1896.8
+  },
+  {
+    "fraction": 0.1,
+    "selector": "asmb",
+    "pairs": 15,
+    "image_mean": 0.8765669157060658,
+    "image_std": 0.07434846509262506,
+    "pixel_mean": 0.9211075203835251,
+    "pixel_std": 0.05684386994741972,
+    "memory_mean": 1896.8
+  }
+]

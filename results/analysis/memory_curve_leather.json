@@ -1,0 +1,68 @@
+[
+  {
+    "category": "leather",
+    "selector": "coreset",
+    "ratio": 0.01,
+    "memory_bank_size": 1920,
+    "total_train_patches": 192080,
+    "compression_ratio": 0.009995835068721367,
+    "image_auroc": 1.0,
+    "pixel_auroc": 0.9872482157659723,
+    "inference_time": 0.002866835483854952
+  },
+  {
+    "category": "leather",
+    "selector": "hybrid_stability",
+    "ratio": 0.01,
+    "memory_bank_size": 1920,
+    "total_train_patches": 192080,
+    "compression_ratio": 0.009995835068721367,
+    "image_auroc": 0.9993206521739131,
+    "pixel_auroc": 0.9875519416004916,
+    "inference_time": 0.0023584048387067834
+  },
+  {
+    "category": "leather",
+    "selector": "coreset",
+    "ratio": 0.1,
+    "memory_bank_size": 19208,
+    "total_train_patches": 192080,
+    "compression_ratio": 0.1,
+    "image_auroc": 1.0,
+    "pixel_auroc": 0.9881204507160811,
+    "inference_time": 0.007908040322593391
+  },
+  {
+    "category": "leather",
+    "selector": "hybrid_stability",
+    "ratio": 0.1,
+    "memory_bank_size": 19208,
+    "total_train_patches": 192080,
+    "compression_ratio": 0.1,
+    "image_auroc": 1.0,
+    "pixel_auroc": 0.988293349151163,
+    "inference_time": 0.007898162096793268
+  },
+  {
+    "category": "leather",
+    "selector": "coreset",
+    "ratio": 0.2,
+    "memory_bank_size": 38416,
+    "total_train_patches": 192080,
+    "compression_ratio": 0.2,
+    "image_auroc": 1.0,
+    "pixel_auroc": 0.9882327659934997,
+    "inference_time": 0.014153384677434412
+  },
+  {
+    "category": "leather",
+    "selector": "hybrid_stability",
+    "ratio": 0.2,
+    "memory_bank_size": 38416,
+    "total_train_patches": 192080,
+    "compression_ratio": 0.2,
+    "image_auroc": 1.0,
+    "pixel_auroc": 0.988226996107828,
+    "inference_time": 0.013994817741941886
+  }
+]

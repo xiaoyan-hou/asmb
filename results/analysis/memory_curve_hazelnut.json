@@ -1,0 +1,68 @@
+[
+  {
+    "category": "hazelnut",
+    "selector": "coreset",
+    "ratio": 0.01,
+    "memory_bank_size": 3065,
+    "total_train_patches": 306544,
+    "compression_ratio": 0.009998564643248603,
+    "image_auroc": 0.9703571428571428,
+    "pixel_auroc": 0.9749040730593859,
+    "inference_time": 0.0029243836363920393
+  },
+  {
+    "category": "hazelnut",
+    "selector": "hybrid_stability",
+    "ratio": 0.01,
+    "memory_bank_size": 3065,
+    "total_train_patches": 306544,
+    "compression_ratio": 0.009998564643248603,
+    "image_auroc": 0.9525,
+    "pixel_auroc": 0.9661049223957648,
+    "inference_time": 0.0029355672727185513
+  },
+  {
+    "category": "hazelnut",
+    "selector": "coreset",
+    "ratio": 0.1,
+    "memory_bank_size": 30654,
+    "total_train_patches": 306544,
+    "compression_ratio": 0.09999869513022601,
+    "image_auroc": 0.9842857142857143,
+    "pixel_auroc": 0.9786988522761344,
+    "inference_time": 0.01127838454545285
+  },
+  {
+    "category": "hazelnut",
+    "selector": "hybrid_stability",
+    "ratio": 0.1,
+    "memory_bank_size": 30654,
+    "total_train_patches": 306544,
+    "compression_ratio": 0.09999869513022601,
+    "image_auroc": 0.9892857142857143,
+    "pixel_auroc": 0.9776808523125355,
+    "inference_time": 0.011329401818180816
+  },
+  {
+    "category": "hazelnut",
+    "selector": "coreset",
+    "ratio": 0.2,
+    "memory_bank_size": 61308,
+    "total_train_patches": 306544,
+    "compression_ratio": 0.19999739026045202,
+    "image_auroc": 0.9939285714285715,
+    "pixel_auroc": 0.9794227203364321,
+    "inference_time": 0.02084351090908802
+  },
+  {
+    "category": "hazelnut",
+    "selector": "hybrid_stability",
+    "ratio": 0.2,
+    "memory_bank_size": 61308,
+    "total_train_patches": 306544,
+    "compression_ratio": 0.19999739026045202,
+    "image_auroc": 0.9871428571428572,
+    "pixel_auroc": 0.9784644133797284,
+    "inference_time": 0.02074971181818083
+  }
+]

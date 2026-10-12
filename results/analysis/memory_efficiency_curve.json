@@ -1,0 +1,134 @@
+[
+  {
+    "category": "transistor",
+    "selector": "coreset",
+    "ratio": 0.01,
+    "memory_bank_size": 1669,
+    "total_train_patches": 166992,
+    "compression_ratio": 0.009994490754048098,
+    "image_auroc": 0.7837500000000001,
+    "pixel_auroc": 0.8198868029458564,
+    "inference_time": 0.0031361370000377066
+  },
+  {
+    "category": "transistor",
+    "selector": "hybrid_stability",
+    "ratio": 0.01,
+    "memory_bank_size": 1669,
+    "total_train_patches": 166992,
+    "compression_ratio": 0.009994490754048098,
+    "image_auroc": 0.7279166666666667,
+    "pixel_auroc": 0.8147745093706821,
+    "inference_time": 0.002370630000004894
+  },
+  {
+    "category": "transistor",
+    "selector": "coreset",
+    "ratio": 0.1,
+    "memory_bank_size": 16699,
+    "total_train_patches": 166992,
+    "compression_ratio": 0.09999880233783655,
+    "image_auroc": 0.87875,
+    "pixel_auroc": 0.8732442883387815,
+    "inference_time": 0.007328648000038811
+  },
+  {
+    "category": "transistor",
+    "selector": "hybrid_stability",
+    "ratio": 0.1,
+    "memory_bank_size": 16699,
+    "total_train_patches": 166992,
+    "compression_ratio": 0.09999880233783655,
+    "image_auroc": 0.9,
+    "pixel_auroc": 0.8621404520324686,
+    "inference_time": 0.007392087999978685
+  },
+  {
+    "category": "transistor",
+    "selector": "coreset",
+    "ratio": 0.2,
+    "memory_bank_size": 33398,
+    "total_train_patches": 166992,
+    "compression_ratio": 0.1999976046756731,
+    "image_auroc": 0.8945833333333334,
+    "pixel_auroc": 0.8840603539429073,
+    "inference_time": 0.012858057000048575
+  },
+  {
+    "category": "transistor",
+    "selector": "hybrid_stability",
+    "ratio": 0.2,
+    "memory_bank_size": 33398,
+    "total_train_patches": 166992,
+    "compression_ratio": 0.1999976046756731,
+    "image_auroc": 0.9233333333333333,
+    "pixel_auroc": 0.8850550664051029,
+    "inference_time": 0.012662412999998197
+  },
+  {
+    "category": "zipper",
+    "selector": "coreset",
+    "ratio": 0.01,
+    "memory_bank_size": 1881,
+    "total_train_patches": 188160,
+    "compression_ratio": 0.009996811224489796,
+    "image_auroc": 0.797531512605042,
+    "pixel_auroc": 0.9380986163623376,
+    "inference_time": 0.002422215894060456
+  },
+  {
+    "category": "zipper",
+    "selector": "hybrid_stability",
+    "ratio": 0.01,
+    "memory_bank_size": 1881,
+    "total_train_patches": 188160,
+    "compression_ratio": 0.009996811224489796,
+    "image_auroc": 0.8574054621848739,
+    "pixel_auroc": 0.9346903637874329,
+    "inference_time": 0.0023060867549687322
+  },
+  {
+    "category": "zipper",
+    "selector": "coreset",
+    "ratio": 0.1,
+    "memory_bank_size": 18816,
+    "total_train_patches": 188160,
+    "compression_ratio": 0.1,
+    "image_auroc": 0.898109243697479,
+    "pixel_auroc": 0.9508919157613027,
+    "inference_time": 0.007847783443693763
+  },
+  {
+    "category": "zipper",
+    "selector": "hybrid_stability",
+    "ratio": 0.1,
+    "memory_bank_size": 18816,
+    "total_train_patches": 188160,
+    "compression_ratio": 0.1,
+    "image_auroc": 0.8925945378151261,
+    "pixel_auroc": 0.949682605745553,
+    "inference_time": 0.007838969536465654
+  },
+  {
+    "category": "zipper",
+    "selector": "coreset",
+    "ratio": 0.2,
+    "memory_bank_size": 37632,
+    "total_train_patches": 188160,
+    "compression_ratio": 0.2,
+    "image_auroc": 0.9125525210084033,
+    "pixel_auroc": 0.9531228036513406,
+    "inference_time": 0.013546449006644975
+  },
+  {
+    "category": "zipper",
+    "selector": "hybrid_stability",
+    "ratio": 0.2,
+    "memory_bank_size": 37632,
+    "total_train_patches": 188160,
+    "compression_ratio": 0.2,
+    "image_auroc": 0.9002100840336134,
+    "pixel_auroc": 0.9529564858029353,
+    "inference_time": 0.013521469536427076
+  }
+]

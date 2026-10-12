@@ -1,0 +1,30 @@
+anomaly:
+  num_neighbors: 1
+dataset:
+  name: mvtec
+  root: data/raw/mvtec
+embedding:
+  pretrain_dimension: 1024
+  target_dimension: 1024
+features:
+  layers:
+  - layer2
+  - layer3
+input:
+  image_size: 224
+  resize: 256
+memory:
+  coreset_sampling_ratio: 0.1
+  knn_k: 10
+  selector: greedy_sensitivity
+  sensitivity_fraction: 0.1
+model:
+  backbone: wide_resnet50_2
+  pretrained: true
+patch:
+  patch_size: 3
+runtime:
+  batch_size: 8
+  num_workers: 4
+  seed: 0
+  use_cuda: true

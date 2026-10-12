@@ -1,0 +1,31 @@
+dataset:
+  name: mvtec
+  root: data/raw/mvtec
+model:
+  backbone: wide_resnet50_2
+  pretrained: true
+features:
+  layers: [layer2, layer3]
+input:
+  resize: 256
+  image_size: 224
+memory:
+  selector: adaptive_coverage
+  coreset_sampling_ratio: 0.1
+  adaptive:
+    min_ratio: 0.01
+    max_ratio: 0.10
+    gain_threshold: 0.01
+    patience: 3
+    step_ratio: 0.005
+    projection_dim: 64
+    reference_size: 4096
+    distance_threshold: 0.30
+anomaly:
+  num_neighbors: 1
+runtime:
+  batch_size: 16
+  num_workers: 4
+  seed: 0
+  use_cuda: true
+

@@ -1,0 +1,68 @@
+[
+  {
+    "category": "wood",
+    "selector": "coreset",
+    "ratio": 0.01,
+    "memory_bank_size": 1936,
+    "total_train_patches": 193648,
+    "compression_ratio": 0.009997521275716764,
+    "image_auroc": 0.9807017543859649,
+    "pixel_auroc": 0.9024674170064575,
+    "inference_time": 0.003959468354464028
+  },
+  {
+    "category": "wood",
+    "selector": "hybrid_stability",
+    "ratio": 0.01,
+    "memory_bank_size": 1936,
+    "total_train_patches": 193648,
+    "compression_ratio": 0.009997521275716764,
+    "image_auroc": 0.9929824561403509,
+    "pixel_auroc": 0.8995834111998365,
+    "inference_time": 0.0024262455696276173
+  },
+  {
+    "category": "wood",
+    "selector": "coreset",
+    "ratio": 0.1,
+    "memory_bank_size": 19364,
+    "total_train_patches": 193648,
+    "compression_ratio": 0.09999586879286128,
+    "image_auroc": 0.9833333333333334,
+    "pixel_auroc": 0.9099904802813681,
+    "inference_time": 0.008156413924080891
+  },
+  {
+    "category": "wood",
+    "selector": "hybrid_stability",
+    "ratio": 0.1,
+    "memory_bank_size": 19364,
+    "total_train_patches": 193648,
+    "compression_ratio": 0.09999586879286128,
+    "image_auroc": 0.9912280701754386,
+    "pixel_auroc": 0.9117769421007023,
+    "inference_time": 0.008170487341759108
+  },
+  {
+    "category": "wood",
+    "selector": "coreset",
+    "ratio": 0.2,
+    "memory_bank_size": 38729,
+    "total_train_patches": 193648,
+    "compression_ratio": 0.19999690159464595,
+    "image_auroc": 0.9824561403508772,
+    "pixel_auroc": 0.9117397981868895,
+    "inference_time": 0.014719744303782804
+  },
+  {
+    "category": "wood",
+    "selector": "hybrid_stability",
+    "ratio": 0.2,
+    "memory_bank_size": 38729,
+    "total_train_patches": 193648,
+    "compression_ratio": 0.19999690159464595,
+    "image_auroc": 0.9842105263157894,
+    "pixel_auroc": 0.9114540554488615,
+    "inference_time": 0.014478696202533246
+  }
+]

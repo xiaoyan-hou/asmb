@@ -1,0 +1,68 @@
+[
+  {
+    "category": "transistor",
+    "selector": "coreset",
+    "ratio": 0.01,
+    "memory_bank_size": 1669,
+    "total_train_patches": 166992,
+    "compression_ratio": 0.009994490754048098,
+    "image_auroc": 0.7837500000000001,
+    "pixel_auroc": 0.8198868029458564,
+    "inference_time": 0.0031361370000377066
+  },
+  {
+    "category": "transistor",
+    "selector": "hybrid_stability",
+    "ratio": 0.01,
+    "memory_bank_size": 1669,
+    "total_train_patches": 166992,
+    "compression_ratio": 0.009994490754048098,
+    "image_auroc": 0.7279166666666667,
+    "pixel_auroc": 0.8147745093706821,
+    "inference_time": 0.002370630000004894
+  },
+  {
+    "category": "transistor",
+    "selector": "coreset",
+    "ratio": 0.1,
+    "memory_bank_size": 16699,
+    "total_train_patches": 166992,
+    "compression_ratio": 0.09999880233783655,
+    "image_auroc": 0.87875,
+    "pixel_auroc": 0.8732442883387815,
+    "inference_time": 0.007328648000038811
+  },
+  {
+    "category": "transistor",
+    "selector": "hybrid_stability",
+    "ratio": 0.1,
+    "memory_bank_size": 16699,
+    "total_train_patches": 166992,
+    "compression_ratio": 0.09999880233783655,
+    "image_auroc": 0.9,
+    "pixel_auroc": 0.8621404520324686,
+    "inference_time": 0.007392087999978685
+  },
+  {
+    "category": "transistor",
+    "selector": "coreset",
+    "ratio": 0.2,
+    "memory_bank_size": 33398,
+    "total_train_patches": 166992,
+    "compression_ratio": 0.1999976046756731,
+    "image_auroc": 0.8945833333333334,
+    "pixel_auroc": 0.8840603539429073,
+    "inference_time": 0.012858057000048575
+  },
+  {
+    "category": "transistor",
+    "selector": "hybrid_stability",
+    "ratio": 0.2,
+    "memory_bank_size": 33398,
+    "total_train_patches": 166992,
+    "compression_ratio": 0.1999976046756731,
+    "image_auroc": 0.9233333333333333,
+    "pixel_auroc": 0.8850550664051029,
+    "inference_time": 0.012662412999998197
+  }
+]

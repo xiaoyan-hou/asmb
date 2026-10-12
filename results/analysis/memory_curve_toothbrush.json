@@ -1,0 +1,68 @@
+[
+  {
+    "category": "toothbrush",
+    "selector": "coreset",
+    "ratio": 0.01,
+    "memory_bank_size": 470,
+    "total_train_patches": 47040,
+    "compression_ratio": 0.009991496598639456,
+    "image_auroc": 0.8,
+    "pixel_auroc": 0.9615966740166525,
+    "inference_time": 0.002050097618935286
+  },
+  {
+    "category": "toothbrush",
+    "selector": "hybrid_stability",
+    "ratio": 0.01,
+    "memory_bank_size": 470,
+    "total_train_patches": 47040,
+    "compression_ratio": 0.009991496598639456,
+    "image_auroc": 0.5805555555555556,
+    "pixel_auroc": 0.922712956994903,
+    "inference_time": 0.002048540476174648
+  },
+  {
+    "category": "toothbrush",
+    "selector": "coreset",
+    "ratio": 0.1,
+    "memory_bank_size": 4704,
+    "total_train_patches": 47040,
+    "compression_ratio": 0.1,
+    "image_auroc": 0.9027777777777778,
+    "pixel_auroc": 0.9780291861173852,
+    "inference_time": 0.0034903428571678454
+  },
+  {
+    "category": "toothbrush",
+    "selector": "hybrid_stability",
+    "ratio": 0.1,
+    "memory_bank_size": 4704,
+    "total_train_patches": 47040,
+    "compression_ratio": 0.1,
+    "image_auroc": 0.8694444444444445,
+    "pixel_auroc": 0.9570843750576199,
+    "inference_time": 0.0036274142857153145
+  },
+  {
+    "category": "toothbrush",
+    "selector": "coreset",
+    "ratio": 0.2,
+    "memory_bank_size": 9408,
+    "total_train_patches": 47040,
+    "compression_ratio": 0.2,
+    "image_auroc": 0.9388888888888889,
+    "pixel_auroc": 0.9795581211065469,
+    "inference_time": 0.0051366166666238795
+  },
+  {
+    "category": "toothbrush",
+    "selector": "hybrid_stability",
+    "ratio": 0.2,
+    "memory_bank_size": 9408,
+    "total_train_patches": 47040,
+    "compression_ratio": 0.2,
+    "image_auroc": 0.8555555555555555,
+    "pixel_auroc": 0.9572797361862495,
+    "inference_time": 0.005103347618950508
+  }
+]
